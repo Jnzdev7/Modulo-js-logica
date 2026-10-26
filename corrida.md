@@ -1,22 +1,17 @@
 ENTRADA
-leia o destino da pessoa
-
-
+leia a distância da corrida em km
+leia a duração da corrida em minutos
 
 PROCESSAMENTO
-guardar km
-guarde minutos
-se resposta = "aceito"
-    escreva "motorista a caminho"
-senao
-    escreva "corrida cancelada"
+total = 5 + 2 * km + 0,5 * minutos
 
 SAÍDA
+escreva o total
 
-5 + 2 * km + 0,5 * min
-5 + 2 * 8 + 0,5 * 20
-5 + 16 + 10
-Valor Total (L16/L18) = 31
+Exemplo com 8 km e 20 minutos:
+total = 5 + 2 * 8 + 0,5 * 20
+total = 5 + 16 + 10
+Valor total = 31
 
 Abre o aplicativo
 Seleciona o endereço (entrada)
